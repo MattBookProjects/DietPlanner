@@ -6,6 +6,7 @@ import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
+import java.util.ArrayList;
 
 
 
@@ -21,6 +22,9 @@ public class AppGUI extends JFrame implements ActionListener{
 
     public AppGUI(int windowWidth, int windowHeight, MenuButtonFactory menuButtonFactory, ActionConst[] actions){
        // this.activeButtonColor = activeButtonColor;
+        this.menuButtons = new ArrayList<MenuButton>();
+        this.menuPanel = new JPanel();
+        this.mainPanel = new JPanel();
         this.setSize(windowWidth, windowHeight);
         this.setLayout(null);
         this.setVisible(true);
@@ -35,10 +39,15 @@ public class AppGUI extends JFrame implements ActionListener{
             MenuButton button = menuButtonFactory.create(actions[i]);
 
             button.setBounds(xgap, i * buttonHeight + (i+1) * ygap, buttonWidth, buttonHeight );
-            menuButtons.add(button);
-            menuPanel.add(button);
+            this.menuButtons.add(button);
+            this.menuPanel.add(button);
         }
-       
+        this.menuPanel.setBounds(0, 0, 400, 800);
+        this.menuPanel.setBackground(Color.red);
+        this.mainPanel.setBackground(Color.green);
+        this.mainPanel.setBounds(400, 0, 800, 800);
+        this.add(menuPanel);
+        this.add(mainPanel);
         //this.getContentPane().setBackground(Color.white);
         
         

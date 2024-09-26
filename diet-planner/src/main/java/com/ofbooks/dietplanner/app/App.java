@@ -9,7 +9,7 @@ public class App {
     public App(int windowWidth, int windowHeight, LangConst lang, Color bgColor, Color buttonColor, Color activeButtonColor, Color textColor){
 
 
-        this.gui = new AppGUI(windowHeight, windowWidth, new MenuButtonFactory(lang, new ActionExecutorFactory(this), buttonColor, activeButtonColor, textColor), new ActionConst[]{ActionConst.GENERATE_DIET});
+        this.gui = new AppGUI(windowWidth, windowHeight, new MenuButtonFactory(lang, new ActionExecutorFactory(this), buttonColor, activeButtonColor, textColor), new ActionConst[]{ActionConst.GENERATE_DIET});
 
     }
 
@@ -19,7 +19,7 @@ public class App {
     }
 
     public void generateDiet(){
-        //this.controller = new GenerateDiet();
+        System.out.println("Generate diet called");
     }
 
    
