@@ -1,0 +1,16 @@
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\actions\ActionExecutorFactory.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\actions\ActionNames.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\actions\GenerateDietActionExecutor.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\actions\IActionExecutor.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\app\App.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\builder\Builder.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\components\MenuButton.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\components\MenuButtonFactory.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\const\ActionConst.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\const\DishCategoryConst.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\const\IngridiantCategoryConst.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\const\LangConst.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\const\TimeUnitConst.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\controllers\IController.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\Main.java
+C:\Users\Mateusz\Desktop\programming\newDietPlanner\DietPlanner\diet-planner\src\main\java\com\ofbooks\dietplanner\views\AppGUI.java
